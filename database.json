@@ -1,0 +1,203 @@
+{
+    "homeowners": [
+        {
+          "id": 1,
+          "fullName": "Dion Stoade",
+          "email": "dstoade0@cornell.edu"
+        },
+        {
+          "id": 2,
+          "fullName": "Windy Thorneloe",
+          "email": "wthorneloe1@usa.gov"
+        },
+        {
+          "id": 3,
+          "fullName": "Hillie Phillpotts",
+          "email": "hphillpotts2@rakuten.co.jp"
+        }
+    ],
+    "homes": [
+        {
+            "id": 1, 
+            "homeownerId": 1,
+            "name": "Primary Residence",
+            "address": "00013 Albina Brooks Lake Otis, TN 99582",
+            "yearBuilt": 1967,
+            "construction": "Masonry Veneer",
+            "roofType": "Asphalt 3 Tab Shingles"
+        }, 
+        {
+            "id": 2, 
+            "homeownerId": 2,
+            "name": "Beach Vacation Home",
+            "address": "342 Jailyn Freeway Lindgrenbury, FL 59545",
+            "yearBuilt": 2013,
+            "construction": "Masonry Construction",
+            "roofType": "Stamped Metal Shingles"
+        },
+        {
+            "id": 3, 
+            "homeownerId": 3,
+            "name": "Mountain Vacation Home",
+            "address": "82699 Cronin Divide Bonita Springs, NY 76165",
+            "yearBuilt": 1990,
+            "construction": "",
+            "roofType": "Asphalt Architectural Shingles"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Weed & feed lawn",
+            "Description": "Spread weed killer and grass fertilizer on lawn",
+            "homeId": 1,
+            "workCategory": "Maintenance",
+            "workFrequency": "Seasonal - Spring"
+        },
+        {
+            "id": 2,
+            "title": "Descale tankless water heater",
+            "Description": "Descale water heater to prevent mineral build-up.  Schedule plumber to perform descaling.",
+            "homeId": 1,
+            "workCategory": "Maintenance",
+            "workFrequency": "Annual - Fall"
+        },
+        {
+            "id": 3,
+            "title": "Reseal patio pavers",
+            "Description": "Sweep patio, fill cracks with packed sand, and apply waterproof sealant to pavers",
+            "homeId": 1,
+            "workCategory": "Maintenance",
+            "workFrequency": "Seasonal - Spring"
+        },
+        {
+            "id": 4,
+            "title": "HVAC inspection",
+            "Description": "Annual inspection and preventative maintenance to be performed by HVAC technician",
+            "homeId": 2,
+            "workCategory": "Maintenance",
+            "workFrequency": "Annual - Winter"
+        },
+        {
+            "id": 5,
+            "title": "Shock pool water",
+            "Description": "Skim debris from pool, test the water, circulate the water, then add the shock to treat the pool.Use sodium dichlor tablet.",
+            "homeId": 2,
+            "workCategory": "Maintenance",
+            "workFrequency": "Annual - Summer"
+        },
+        {
+            "id": 6,
+            "title": "Replace dishwasher",
+            "Description": "Dishwasher is out-of-date and not running optimal.  Need to replace with a new unit.",
+            "homeId": 2,
+            "workCategory": "Upgrade",
+            "workFrequency": "One time"
+        },
+        {
+            "id": 7,
+            "title": "Fix running toilet in guest bathroom",
+            "Description": "Flapper in toilet doesn't shut completely after toilet is flushed.  Water is running non-stop",
+            "homeId": 3,
+            "workCategory": "Repair",
+            "workFrequency": "One time"
+        },
+        {
+            "id": 8,
+            "title": "Add outlet to crawl space",
+            "Description": "Need outlet in crawl space to setup industrial dehumidifier",
+            "homeId": 3,
+            "workCategory": "Upgrade",
+            "workFrequency": "One time"
+        },
+        {
+            "id": 9,
+            "title": "Fix dry wall cracks across house",
+            "Description": "Dry wall needs to be repaired in several areas of home",
+            "homeId": 3,
+            "workCategory": "Repair",
+            "workFrequency": "One time"
+        }
+    ],
+    "contractors": [
+        {
+            "id": 1,
+            "primaryContact": "Sara Chiles",
+            "company": "Chiles Electric",
+            "phone": "505-912-2623",
+            "email": "sarachiles@chileselectric.com",
+            "specialty": "Electrical"
+        },
+        {
+            "id": 2,
+            "primaryContact": "Shanice Ingram",
+            "company": "LawnWise",
+            "phone": "874-572-0409",
+            "email": "shaniceingram@lawnwise.com",
+            "specialty": "Lawn & Landscaping"
+        },
+        {
+            "id": 3,
+            "primaryContact": "Pablo Rodriguez",
+            "company": "Rodriguez Plumbing",
+            "phone": "671-351-9507",
+            "email": "pablorodriguez@rodriguezplumbing.com",
+            "specialty": "Plumbing"
+        },
+        {
+            "id": 4,
+            "primaryContact": "Myself",
+            "company": "Not applicable",
+            "phone": "Not applicable",
+            "email": "Not applicable",
+            "specialty": "Homeowner responsibilty"
+        },
+        {
+            "id": 5,
+            "primaryContact": "Davis McMann",
+            "company": "McMann Air Conditioning & Heating",
+            "phone": "808-894-7732",
+            "email": "davismcmann@mcmannhvac.com",
+            "specialty": "HVAC"
+        },
+        {
+            "id": 6,
+            "primaryContact": "Yoshi Nakaya",
+            "company": "Pinnacle Pools",
+            "phone": "463-992-4625",
+            "email": "yoshinakaya@pinnanclepools.com",
+            "specialty": "Pools"
+        },
+        {
+            "id": 7,
+            "primaryContact": "Kavya Varma",
+            "company": "Varma General Contracting",
+            "phone": "236-871-1986",
+            "email": "kavyavarma@varmageneralcontracting.com",
+            "specialty": "General Contracting"
+        }
+    ],
+    "workOrders": [
+        {
+            "id": 1,
+            "taskId": 4,
+            "contractorId": 5,
+            "startDate": "01-28-2023",
+            "completionDate": ""
+        },
+        {
+            "id": 2,
+            "taskId": 2,
+            "contractorId": 3,
+            "startDate": "09-25-2022",
+            "completionDate": "09-25-2022"
+        },
+        {
+            "id": 3,
+            "taskId": 9,
+            "contractorId": 7,
+            "startDate": "06-09-2023",
+            "completionDate": ""
+        }
+    ]
+}
