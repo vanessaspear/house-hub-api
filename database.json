@@ -28,24 +28,24 @@
       "id": 1
     },
     {
-      "id": 2,
       "homeownerId": 2,
       "name": "Beach Vacation Home",
       "address": "342 Jailyn Freeway Lindgrenbury, FL 59545",
       "yearBuilt": 2013,
       "construction": "Masonry Construction",
       "roofType": "Stamped Metal Shingles",
-      "photo": "https://photos.zillowstatic.com/fp/e186ba114a7f3239640f29ef084c2a92-uncropped_scaled_within_1536_1152.webp"
+      "photo": "https://photos.zillowstatic.com/fp/e186ba114a7f3239640f29ef084c2a92-uncropped_scaled_within_1536_1152.webp",
+      "id": 2
     },
     {
-      "id": 3,
       "homeownerId": 3,
       "name": "Mountain Vacation Home",
       "address": "82699 Cronin Divide Bonita Springs, NY 76165",
       "yearBuilt": 1990,
       "construction": "Full scribe",
       "roofType": "Asphalt Architectural Shingles",
-      "photo": "https://www.pioneerloghomesofbc.com/wp-content/uploads/elementor/thumbs/image2-pj0gyyylp5f4gd3fmj3brsgj5d8wc9md8zc7r788hs.jpg"
+      "photo": "https://www.pioneerloghomesofbc.com/wp-content/uploads/elementor/thumbs/image2-pj0gyyylp5f4gd3fmj3brsgj5d8wc9md8zc7r788hs.jpg",
+      "id": 3
     }
   ],
   "categories": [
@@ -90,12 +90,12 @@
   ],
   "tasks": [
     {
-      "id": 1,
       "title": "Weed & feed lawn",
       "description": "Spread weed killer and grass fertilizer on lawn",
       "homeId": 1,
       "categoryId": 1,
-      "frequencyId": 2
+      "frequencyId": 2,
+      "id": 1
     },
     {
       "id": 2,
@@ -114,36 +114,36 @@
       "frequencyId": 2
     },
     {
-      "id": 4,
       "title": "HVAC inspection",
       "description": "Annual inspection and preventative maintenance to be performed by HVAC technician",
       "homeId": 2,
       "categoryId": 1,
-      "frequencyId": 6
+      "frequencyId": 5,
+      "id": 4
     },
     {
-      "id": 5,
       "title": "Shock pool water",
       "description": "Skim debris from pool, test the water, circulate the water, then add the shock to treat the pool.Use sodium dichlor tablet.",
       "homeId": 2,
       "categoryId": 1,
-      "frequencyId": 6
+      "frequencyId": 6,
+      "id": 5
     },
     {
-      "id": 6,
       "title": "Replace dishwasher",
       "description": "Dishwasher is out-of-date and not running optimal.  Need to replace with a new unit.",
       "homeId": 2,
       "categoryId": 3,
-      "frequencyId": 1
+      "frequencyId": 1,
+      "id": 6
     },
     {
-      "id": 7,
-      "title": "Fix running toilet in guest bathroom",
-      "description": "Flapper in toilet doesn't shut completely after toilet is flushed.  Water is running non-stop",
+      "title": "Repair toilet",
+      "description": "toilet bowl is cracked",
       "homeId": 3,
       "categoryId": 2,
-      "frequencyId": 1
+      "frequencyId": 1,
+      "id": 7
     },
     {
       "id": 8,
@@ -165,8 +165,8 @@
       "title": "Trim palm trees",
       "description": "Trim dead palm fronds from all palm trees",
       "homeId": 2,
-      "categoryId": "1",
-      "frequencyId": "5",
+      "categoryId": 1,
+      "frequencyId": 5,
       "id": 10
     }
   ],
