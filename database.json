@@ -146,12 +146,12 @@
       "id": 7
     },
     {
-      "id": 8,
       "title": "Add outlet to crawl space",
       "description": "Need outlet in crawl space to setup industrial dehumidifier",
       "homeId": 3,
       "categoryId": 3,
-      "frequencyId": 1
+      "frequencyId": 1,
+      "id": 8
     },
     {
       "id": 9,
@@ -160,14 +160,6 @@
       "homeId": 3,
       "categoryId": 2,
       "frequencyId": 1
-    },
-    {
-      "title": "Trim palm trees",
-      "description": "Trim dead palm fronds from all palm trees",
-      "homeId": 2,
-      "categoryId": 1,
-      "frequencyId": 5,
-      "id": 10
     }
   ],
   "contractors": [
@@ -177,7 +169,8 @@
       "company": "Chiles Electric",
       "phone": "505-912-2623",
       "email": "sarachiles@chileselectric.com",
-      "specialty": "Electrical"
+      "specialty": "Electrical",
+      "homeownerId": 3
     },
     {
       "id": 2,
@@ -185,7 +178,8 @@
       "company": "LawnWise",
       "phone": "874-572-0409",
       "email": "shaniceingram@lawnwise.com",
-      "specialty": "Lawn & Landscaping"
+      "specialty": "Lawn & Landscaping",
+      "homeownerId": 1
     },
     {
       "id": 3,
@@ -193,15 +187,8 @@
       "company": "Rodriguez Plumbing",
       "phone": "671-351-9507",
       "email": "pablorodriguez@rodriguezplumbing.com",
-      "specialty": "Plumbing"
-    },
-    {
-      "id": 4,
-      "primaryContact": "Myself",
-      "company": "Not applicable",
-      "phone": "Not applicable",
-      "email": "Not applicable",
-      "specialty": "Homeowner responsibilty"
+      "specialty": "Plumbing",
+      "homeownerId": 1
     },
     {
       "id": 5,
@@ -209,7 +196,8 @@
       "company": "McMann Air Conditioning & Heating",
       "phone": "808-894-7732",
       "email": "davismcmann@mcmannhvac.com",
-      "specialty": "HVAC"
+      "specialty": "HVAC",
+      "homeownerId": 2
     },
     {
       "id": 6,
@@ -217,7 +205,8 @@
       "company": "Pinnacle Pools",
       "phone": "463-992-4625",
       "email": "yoshinakaya@pinnanclepools.com",
-      "specialty": "Pools"
+      "specialty": "Pools",
+      "homeownerId": 2
     },
     {
       "id": 7,
@@ -225,7 +214,17 @@
       "company": "Varma General Contracting",
       "phone": "236-871-1986",
       "email": "kavyavarma@varmageneralcontracting.com",
-      "specialty": "General Contracting"
+      "specialty": "General Contracting",
+      "homeownerId": 3
+    },
+    {
+      "id": 8,
+      "primaryContact": "Pablo Rodriguez",
+      "company": "Rodriguez Plumbing",
+      "phone": "671-351-9507",
+      "email": "pablorodriguez@rodriguezplumbing.com",
+      "specialty": "Plumbing",
+      "homeownerId": 3
     }
   ],
   "workOrders": [
