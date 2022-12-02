@@ -233,21 +233,27 @@
       "taskId": 4,
       "contractorId": 5,
       "startDate": "01-28-2023",
-      "completionDate": ""
+      "completionDate": "",
+      "homeownerId": 2,
+      "summary": ""
     },
     {
       "id": 2,
       "taskId": 2,
       "contractorId": 3,
       "startDate": "09-25-2022",
-      "completionDate": "09-25-2022"
+      "completionDate": "09-25-2022",
+      "homeownerId": 1,
+      "summary": "Water heater was flushed with CleanX 2440 descaling solution"
     },
     {
       "id": 3,
       "taskId": 9,
       "contractorId": 7,
       "startDate": "06-09-2023",
-      "completionDate": ""
+      "completionDate": "",
+      "homeownerId": 3,
+      "summary": ""
     }
   ]
 }
