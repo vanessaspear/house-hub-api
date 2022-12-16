@@ -18,33 +18,66 @@
   ],
   "homes": [
     {
+      "id": 1,
       "homeownerId": 1,
       "name": "Primary Residence",
-      "address": "00013 Albina Brooks Lake Otis, TN 99582",
-      "yearBuilt": "1967",
-      "construction": "Masonry Veneer",
-      "roofType": "Asphalt 3 Tab Shingles",
-      "photo": "https://photos.zillowstatic.com/fp/f973e1cef64001863774170c8806e648-cc_ft_1536.webp",
-      "id": 1
+      "address": "460 Jasmine Dr Nasvhille, TN 37201",
+      "yearBuilt": "2005",
+      "flooring": "Carpet, Wood, Tile",
+      "heating": "Central, Heat Pump",
+      "cooling": "Central Air, Electric",
+      "livableArea": "7,890 sqft",
+      "construction": "Brick",
+      "roof": "Shingle",
+      "lotSize": "1.15 Acres",
+      "lotFeatures": "N/A",
+      "exteriorFeatures": "Pool, Fenced Backyard",
+      "patioDetails": "Covered Patio, Covered Porch, Porch, Screened Patio",
+      "sewer": "Public",
+      "water": "Public",
+      "greenEnergy": "N/A",
+      "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671124975/HouseHub/Images/brick_home_kumnx1.webp"
     },
     {
       "homeownerId": 2,
-      "name": "Beach Vacation Home",
-      "address": "342 Jailyn Freeway Lindgrenbury, FL 59545",
-      "yearBuilt": 2013,
-      "construction": "Masonry Construction",
-      "roofType": "Stamped Metal Shingles",
-      "photo": "https://photos.zillowstatic.com/fp/e186ba114a7f3239640f29ef084c2a92-uncropped_scaled_within_1536_1152.webp",
+      "name": "The Thorneloe Residence",
+      "address": "6009 Sea Turtle Ln Ponte Vedra Beach, FL 32226",
+      "yearBuilt": "2017",
+      "flooring": "Carpet, Wood, Tile",
+      "heating": "Central, Electric",
+      "cooling": "Central Air, Electric",
+      "livableArea": "6,550 sqft",
+      "construction": "Frame",
+      "roof": "Shingle",
+      "lotSize": "0.83 Acres",
+      "lotFeatures": "Riverfront",
+      "exteriorFeatures": "Pool, Hot Tub, Fenced Backyard, Boat Dock/Slip",
+      "patioDetails": "Balcony, Covered, Patio",
+      "sewer": "Septic Tank",
+      "water": "Private, Well",
+      "greenEnergy": "Residential Solar Panels",
+      "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671125896/HouseHub/Images/beach_home_jjeqlk.webp",
       "id": 2
     },
     {
       "homeownerId": 3,
-      "name": "Mountain Vacation Home",
-      "address": "82699 Cronin Divide Bonita Springs, NY 76165",
-      "yearBuilt": 1990,
-      "construction": "Full scribe",
-      "roofType": "Asphalt Architectural Shingles",
-      "photo": "https://www.pioneerloghomesofbc.com/wp-content/uploads/elementor/thumbs/image2-pj0gyyylp5f4gd3fmj3brsgj5d8wc9md8zc7r788hs.jpg",
+      "name": "The Phillpotts' Mountain Home",
+      "address": "74 Whitewater Rd Aspen, CO 81612",
+      "yearBuilt": "2006",
+      "flooring": "Carpet, Wood, Tile",
+      "heating": "Forced air, natural gas, radiant",
+      "cooling": "Central Air, Electric",
+      "livableArea": "8,340 sqft",
+      "construction": "Stone, Stucco, Wood Siding",
+      "roof": "Shingle",
+      "lotSize": "1.19 Acres",
+      "lotFeatures": "Cul-De-Sac, Sloped, Cross Country Skiing",
+      "exteriorFeatures": "Balcony, Garden, Private Yard, Smart Irrigation",
+      "patioDetails": "Patio",
+      "sewer": "Public",
+      "water": "Public",
+      "greenEnergy": "None",
+      "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671126939/HouseHub/Images/Screenshot_2022-12-15_at_11.55.17_AM_yatbxp.png",
       "id": 3
     }
   ],
@@ -95,23 +128,27 @@
       "homeId": 1,
       "categoryId": 1,
       "frequencyId": 2,
-      "id": 1
+      "id": 1,
+      "image": "",
+      "status": "Archived"
     },
     {
-      "id": 2,
       "title": "Descale tankless water heater",
       "description": "Descale water heater to prevent mineral build-up.  Schedule plumber to perform descaling.",
       "homeId": 1,
-      "categoryId": 1,
-      "frequencyId": 6
+      "categoryId": "3",
+      "frequencyId": 6,
+      "id": 2,
+      "status": "Active"
     },
     {
-      "id": 3,
       "title": "Reseal patio pavers",
       "description": "Sweep patio, fill cracks with packed sand, and apply waterproof sealant to pavers",
       "homeId": 1,
-      "categoryId": 1,
-      "frequencyId": 2
+      "categoryId": "2",
+      "frequencyId": 2,
+      "id": 3,
+      "status": "Active"
     },
     {
       "title": "HVAC inspection",
@@ -119,7 +156,9 @@
       "homeId": 2,
       "categoryId": 1,
       "frequencyId": 5,
-      "id": 4
+      "id": 4,
+      "image": "",
+      "status": "Active"
     },
     {
       "title": "Shock pool water",
@@ -127,7 +166,9 @@
       "homeId": 2,
       "categoryId": 1,
       "frequencyId": 6,
-      "id": 5
+      "id": 5,
+      "image": "",
+      "status": "Archived"
     },
     {
       "title": "Replace dishwasher",
@@ -135,15 +176,19 @@
       "homeId": 2,
       "categoryId": 3,
       "frequencyId": 1,
-      "id": 6
+      "id": 6,
+      "image": "",
+      "status": "Active"
     },
     {
       "title": "Repair toilet",
-      "description": "toilet bowl is cracked",
+      "description": "toilet bowl is cracked and needs to be replaced",
       "homeId": 3,
       "categoryId": 2,
       "frequencyId": 1,
-      "id": 7
+      "id": 7,
+      "image": "",
+      "status": "Active"
     },
     {
       "title": "Add outlet to crawl space",
@@ -151,7 +196,9 @@
       "homeId": 3,
       "categoryId": 3,
       "frequencyId": 1,
-      "id": 8
+      "id": 8,
+      "image": "",
+      "status": "Archived"
     },
     {
       "id": 9,
@@ -159,7 +206,19 @@
       "description": "Dry wall needs to be repaired in several areas of home",
       "homeId": 3,
       "categoryId": 2,
-      "frequencyId": 1
+      "frequencyId": 1,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "title": "Caulk the windows ",
+      "description": "Apply silicon caulk around windowsills",
+      "homeId": 1,
+      "categoryId": 1,
+      "frequencyId": 4,
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1670687465/bvife5t8dpiqzzrpz1xj.jpg",
+      "id": 10,
+      "status": "Active"
     }
   ],
   "contractors": [
@@ -170,34 +229,42 @@
       "phone": "505-912-2623",
       "email": "sarachiles@chileselectric.com",
       "specialty": "Electrical",
-      "homeownerId": 3
+      "homeownerId": 3,
+      "image": "",
+      "status": "Active"
     },
     {
-      "id": 2,
       "primaryContact": "Shanice Ingram",
       "company": "LawnWise",
+      "homeownerId": 1,
       "phone": "874-572-0409",
       "email": "shaniceingram@lawnwise.com",
       "specialty": "Lawn & Landscaping",
-      "homeownerId": 1
+      "id": 2,
+      "image": "",
+      "status": "Active"
     },
     {
       "id": 3,
       "primaryContact": "Pablo Rodriguez",
       "company": "Rodriguez Plumbing",
       "phone": "671-351-9507",
-      "email": "pablorodriguez@rodriguezplumbing.com",
+      "email": "pablorodriguez@rodplumbing.com",
       "specialty": "Plumbing",
-      "homeownerId": 1
+      "homeownerId": 1,
+      "image": "",
+      "status": "Active"
     },
     {
-      "id": 5,
       "primaryContact": "Davis McMann",
       "company": "McMann Air Conditioning & Heating",
+      "homeownerId": 2,
       "phone": "808-894-7732",
       "email": "davismcmann@mcmannhvac.com",
       "specialty": "HVAC",
-      "homeownerId": 2
+      "id": 5,
+      "image": "",
+      "status": "Active"
     },
     {
       "id": 6,
@@ -206,25 +273,30 @@
       "phone": "463-992-4625",
       "email": "yoshinakaya@pinnanclepools.com",
       "specialty": "Pools",
-      "homeownerId": 2
+      "homeownerId": 2,
+      "image": "",
+      "status": "Active"
     },
     {
       "id": 7,
       "primaryContact": "Kavya Varma",
       "company": "Varma General Contracting",
       "phone": "236-871-1986",
-      "email": "kavyavarma@varmageneralcontracting.com",
+      "email": "kavyavarma@varmagc.com",
       "specialty": "General Contracting",
-      "homeownerId": 3
+      "homeownerId": 3,
+      "image": "",
+      "status": "Active"
     },
     {
       "id": 8,
       "primaryContact": "Pablo Rodriguez",
       "company": "Rodriguez Plumbing",
       "phone": "671-351-9507",
-      "email": "pablorodriguez@rodriguezplumbing.com",
+      "email": "pablorodriguez@rodplumbing.com",
       "specialty": "Plumbing",
-      "homeownerId": 3
+      "homeownerId": 3,
+      "status": "Active"
     }
   ],
   "workOrders": [
@@ -232,28 +304,40 @@
       "id": 1,
       "taskId": 4,
       "contractorId": 5,
-      "startDate": "01-28-2023",
+      "startDate": "2023-06-06T14:00",
+      "startTime": "2:00:00 PM",
       "completionDate": "",
+      "completionTime": "",
       "homeownerId": 2,
-      "summary": ""
+      "summary": "",
+      "image": "",
+      "status": "Open"
     },
     {
       "id": 2,
       "taskId": 2,
       "contractorId": 3,
-      "startDate": "09-25-2022",
-      "completionDate": "09-25-2022",
+      "startDate": "2022-09-13T08:00",
+      "startTime": "8:00:00 AM",
+      "completionDate": "2022-12-15T17:18",
+      "completionTime": "5:18:00 PM",
       "homeownerId": 1,
-      "summary": "Water heater was flushed with CleanX 2440 descaling solution"
+      "summary": "Water heater was flushed with CleanX 2440 descaling solution",
+      "image": "",
+      "status": "Closed"
     },
     {
       "id": 3,
       "taskId": 9,
       "contractorId": 7,
-      "startDate": "06-09-2023",
+      "startDate": "2023-03-06T11:30",
+      "startTime": "11:30:00 AM",
       "completionDate": "",
+      "completionTime": "Invalid Date",
       "homeownerId": 3,
-      "summary": ""
+      "summary": "",
+      "image": "",
+      "status": "Open"
     }
   ]
 }
