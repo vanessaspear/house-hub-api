@@ -152,10 +152,10 @@
     },
     {
       "title": "HVAC inspection",
-      "description": "Annual inspection and preventative maintenance to be performed by HVAC technician",
+      "description": "Annual inspection and preventative maintenance to be performed by certified HVAC technician",
       "homeId": 2,
       "categoryId": 1,
-      "frequencyId": 5,
+      "frequencyId": "6",
       "id": 4,
       "image": "",
       "status": "Active"
@@ -219,6 +219,66 @@
       "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1670687465/bvife5t8dpiqzzrpz1xj.jpg",
       "id": 10,
       "status": "Active"
+    },
+    {
+      "title": "Termite inspection ",
+      "description": "Schedule pest control company to perform termite inspection ",
+      "homeId": 2,
+      "categoryId": 1,
+      "frequencyId": 6,
+      "id": 11,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "title": "Clean rain gutters ",
+      "description": "Clean rain gutters to protect home from water overflow",
+      "homeId": 2,
+      "categoryId": 1,
+      "frequencyId": 6,
+      "id": 12,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "title": "Close crawl space vents ",
+      "description": "Close crawl space vents around house to protect pipes from freezing during winter time ",
+      "homeId": 2,
+      "categoryId": 1,
+      "frequencyId": 4,
+      "image": "",
+      "status": "Active",
+      "id": 13
+    },
+    {
+      "title": "Paint house ",
+      "description": "Need to have house re-painted.  Paint store no longer has paint colors, and it's been almost 10 years since house was painted ",
+      "homeId": 2,
+      "categoryId": 3,
+      "frequencyId": 1,
+      "image": "",
+      "status": "Active",
+      "id": 14
+    },
+    {
+      "title": "Patch up cracked mortar",
+      "description": "Mortar is cracking around brick above the garage",
+      "homeId": 2,
+      "categoryId": 2,
+      "frequencyId": 1,
+      "id": 15,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "title": "Test Smoke and Carbon Monoxide Detectors",
+      "description": "Test Smoke and Carbon Monoxide Detectors",
+      "homeId": 2,
+      "categoryId": 1,
+      "frequencyId": 6,
+      "image": "",
+      "status": "Active",
+      "id": 16
     }
   ],
   "contractors": [
@@ -257,24 +317,24 @@
     },
     {
       "primaryContact": "Davis McMann",
-      "company": "McMann Air Conditioning & Heating",
+      "company": "Air Solutions",
       "homeownerId": 2,
-      "phone": "808-894-7732",
-      "email": "davismcmann@mcmannhvac.com",
+      "phone": "808-894-7731",
+      "email": "davismcmann@airsolutions.com",
       "specialty": "HVAC",
       "id": 5,
-      "image": "",
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1671213259/rjr6gvlqfrptu97qrfkw.jpg",
       "status": "Active"
     },
     {
-      "id": 6,
       "primaryContact": "Yoshi Nakaya",
-      "company": "Pinnacle Pools",
-      "phone": "463-992-4625",
+      "company": "Pinnacle Pools & Spa",
+      "homeownerId": 2,
+      "phone": "463-992-4626",
       "email": "yoshinakaya@pinnanclepools.com",
       "specialty": "Pools",
-      "homeownerId": 2,
-      "image": "",
+      "id": 6,
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1671213169/zawig97lgqaaklx2mgh5.png",
       "status": "Active"
     },
     {
@@ -297,6 +357,50 @@
       "specialty": "Plumbing",
       "homeownerId": 3,
       "status": "Active"
+    },
+    {
+      "primaryContact": "Michael Davidson",
+      "company": "Zapper Pest Control",
+      "homeownerId": 2,
+      "phone": "(765) 890-9808",
+      "email": "mdavidson@zapper.com",
+      "specialty": "Pest Control",
+      "image": "",
+      "status": "Active",
+      "id": 9
+    },
+    {
+      "primaryContact": "Stacey Robinson",
+      "company": "J&R Masonry LLC",
+      "homeownerId": 2,
+      "phone": "(660) 767-0980",
+      "email": "srubell@jrbricks.com",
+      "specialty": "Masonry",
+      "id": 10,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "primaryContact": "Shay Oswald",
+      "company": "Straight Edge Painting",
+      "homeownerId": 2,
+      "phone": "(212) 987-6080",
+      "email": "sowswald@gmail.com",
+      "specialty": "Painting",
+      "id": 12,
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1671213653/h0y2mxcrq6nvlk3dmm3w.jpg",
+      "status": "Active"
+    },
+    {
+      "primaryContact": "Anil Kumar",
+      "company": "Neptune Pressure Washing",
+      "homeownerId": 2,
+      "phone": "(330) 412-9331",
+      "email": "anilkumar@gmail.com",
+      "specialty": "Pressure Washing ",
+      "id": 13,
+      "image": "",
+      "status": "Active"
     }
   ],
   "workOrders": [
@@ -307,9 +411,9 @@
       "startDate": "2023-06-06T14:00",
       "startTime": "2:00:00 PM",
       "completionDate": "",
-      "completionTime": "",
+      "completionTime": "Invalid Date",
       "homeownerId": 2,
-      "summary": "",
+      "summary": "Appointment has been scheduled",
       "image": "",
       "status": "Open"
     },
@@ -338,6 +442,71 @@
       "summary": "",
       "image": "",
       "status": "Open"
+    },
+    {
+      "id": 4,
+      "taskId": 11,
+      "contractorId": 9,
+      "startDate": "2021-08-16T11:16",
+      "startTime": "11:16:00 AM",
+      "completionDate": "2021-08-16T12:16",
+      "completionTime": "12:16:00 PM",
+      "homeownerId": 2,
+      "summary": "",
+      "image": "",
+      "status": "Closed"
+    },
+    {
+      "id": 5,
+      "taskId": 11,
+      "contractorId": 9,
+      "startDate": "2022-08-24T15:15",
+      "startTime": "3:15:00 PM",
+      "completionDate": "2022-08-24T16:15",
+      "completionTime": "4:15:00 PM",
+      "homeownerId": 2,
+      "summary": "No termites were found.  House is in good condition. See attached termite inspection report. ",
+      "image": "",
+      "status": "Closed"
+    },
+    {
+      "id": 6,
+      "taskId": 15,
+      "contractorId": 10,
+      "startDate": "2023-01-17T09:00",
+      "startTime": "9:00:00 AM",
+      "completionDate": "",
+      "completionTime": "Invalid Date",
+      "homeownerId": 2,
+      "summary": "Scheduled repair appt.  Should take ~2 hours.",
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1671220512/nnz2h7vvz1zzqjiy0ogj.jpg",
+      "status": "Open"
+    },
+    {
+      "id": 7,
+      "taskId": 14,
+      "contractorId": 12,
+      "startDate": "2022-11-28T12:00",
+      "startTime": "12:00:00 PM",
+      "completionDate": "",
+      "completionTime": "Invalid Date",
+      "homeownerId": 2,
+      "summary": "Received quote for whole house painting.  Need to decide if we want to move forward with entire house or only high traffic areas.",
+      "image": "",
+      "status": "Open"
+    },
+    {
+      "id": 8,
+      "taskId": 16,
+      "contractorId": 0,
+      "startDate": "2022-01-01T10:00",
+      "startTime": "10:00:00 AM",
+      "completionDate": "2022-01-01T11:15",
+      "completionTime": "11:15:00 AM",
+      "homeownerId": 2,
+      "summary": "Guest bedroom smoke detector had a dead battery.  Removed and replaced battery and detector is working now. ",
+      "image": "",
+      "status": "Closed"
     }
   ]
 }
