@@ -39,6 +39,7 @@
       "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671124975/HouseHub/Images/brick_home_kumnx1.webp"
     },
     {
+      "id": 2,
       "homeownerId": 2,
       "name": "The Thorneloe Residence",
       "address": "6009 Sea Turtle Ln Ponte Vedra Beach, FL 32226",
@@ -46,7 +47,7 @@
       "flooring": "Carpet, Wood, Tile",
       "heating": "Central, Electric",
       "cooling": "Central Air, Electric",
-      "livableArea": "6,550 sqft",
+      "livableArea": "6,565 sqft",
       "construction": "Frame",
       "roof": "Shingle",
       "lotSize": "0.83 Acres",
@@ -56,8 +57,7 @@
       "sewer": "Septic Tank",
       "water": "Private, Well",
       "greenEnergy": "Residential Solar Panels",
-      "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671125896/HouseHub/Images/beach_home_jjeqlk.webp",
-      "id": 2
+      "image": "https://res.cloudinary.com/decu5fbul/image/upload/v1671125896/HouseHub/Images/beach_home_jjeqlk.webp"
     },
     {
       "homeownerId": 3,
@@ -154,7 +154,7 @@
       "title": "HVAC inspection",
       "description": "Annual inspection and preventative maintenance to be performed by certified HVAC technician",
       "homeId": 2,
-      "categoryId": 1,
+      "categoryId": "1",
       "frequencyId": "6",
       "id": 4,
       "image": "",
@@ -473,7 +473,7 @@
       "id": 6,
       "taskId": 15,
       "contractorId": 10,
-      "startDate": "2023-01-17T09:00",
+      "startDate": "2023-02-02T09:00",
       "startTime": "9:00:00 AM",
       "completionDate": "",
       "completionTime": "Invalid Date",
@@ -507,6 +507,19 @@
       "summary": "Guest bedroom smoke detector had a dead battery.  Removed and replaced battery and detector is working now. ",
       "image": "",
       "status": "Closed"
+    },
+    {
+      "taskId": 11,
+      "contractorId": 9,
+      "startDate": "2023-01-17T14:00",
+      "startTime": "2:00:00 PM",
+      "completionDate": "",
+      "completionTime": "",
+      "homeownerId": 2,
+      "summary": "",
+      "image": "",
+      "status": "Open",
+      "id": 9
     }
   ]
 }
