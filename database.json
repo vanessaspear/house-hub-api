@@ -47,7 +47,7 @@
       "flooring": "Carpet, Wood, Tile",
       "heating": "Central, Electric",
       "cooling": "Central Air, Electric",
-      "livableArea": "6,565 sqft",
+      "livableArea": "6,567 sqft",
       "construction": "Frame",
       "roof": "Shingle",
       "lotSize": "0.83 Acres",
@@ -374,7 +374,7 @@
       "company": "J&R Masonry LLC",
       "homeownerId": 2,
       "phone": "(660) 767-0980",
-      "email": "srubell@jrbricks.com",
+      "email": "srobinson@jrbricks.com",
       "specialty": "Masonry",
       "id": 10,
       "image": "",
@@ -399,6 +399,17 @@
       "email": "anilkumar@gmail.com",
       "specialty": "Pressure Washing ",
       "id": 13,
+      "image": "",
+      "status": "Active"
+    },
+    {
+      "primaryContact": "N/A",
+      "company": "Homeowner",
+      "homeownerId": 2,
+      "phone": "N/A",
+      "email": "N/A",
+      "specialty": "None Required",
+      "id": 14,
       "image": "",
       "status": "Active"
     }
@@ -496,19 +507,6 @@
       "status": "Open"
     },
     {
-      "id": 8,
-      "taskId": 16,
-      "contractorId": 0,
-      "startDate": "2022-01-01T10:00",
-      "startTime": "10:00:00 AM",
-      "completionDate": "2022-01-01T11:15",
-      "completionTime": "11:15:00 AM",
-      "homeownerId": 2,
-      "summary": "Guest bedroom smoke detector had a dead battery.  Removed and replaced battery and detector is working now. ",
-      "image": "",
-      "status": "Closed"
-    },
-    {
       "taskId": 11,
       "contractorId": 9,
       "startDate": "2023-01-17T14:00",
@@ -520,6 +518,19 @@
       "image": "",
       "status": "Open",
       "id": 9
+    },
+    {
+      "id": 10,
+      "taskId": 16,
+      "contractorId": 13,
+      "startDate": "2023-01-01T13:30",
+      "startTime": "1:30:00 PM",
+      "completionDate": "2023-01-01T14:30",
+      "completionTime": "2:30:00 PM",
+      "homeownerId": 2,
+      "summary": "Guest bedroom smoke detector had a dead battery. Removed and replaced battery and detector is working now.",
+      "image": "",
+      "status": "Closed"
     }
   ]
 }
