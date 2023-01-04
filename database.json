@@ -279,6 +279,16 @@
       "image": "",
       "status": "Active",
       "id": 16
+    },
+    {
+      "title": "Add electrical outlets to patio area",
+      "description": "Add additional electrical outlets on patio for string lights and appliances and low voltage lighting to guide walkway",
+      "homeId": 2,
+      "categoryId": 3,
+      "frequencyId": 1,
+      "image": "",
+      "status": "Active",
+      "id": 17
     }
   ],
   "contractors": [
@@ -412,6 +422,17 @@
       "id": 14,
       "image": "",
       "status": "Active"
+    },
+    {
+      "primaryContact": "John Davis",
+      "company": "Westmaas Electrical",
+      "homeownerId": 2,
+      "phone": "(876) 999-8976",
+      "email": "jdavis@gmail.com",
+      "specialty": "Electrical",
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1672851828/jl9zctg3txgzhlba1cme.png",
+      "status": "Active",
+      "id": 15
     }
   ],
   "workOrders": [
@@ -531,6 +552,19 @@
       "summary": "Guest bedroom smoke detector had a dead battery. Removed and replaced battery and detector is working now.",
       "image": "",
       "status": "Closed"
+    },
+    {
+      "id": 11,
+      "taskId": 17,
+      "contractorId": 15,
+      "startDate": "2023-01-13T11:04",
+      "startTime": "11:04:00 AM",
+      "completionDate": "",
+      "completionTime": "Invalid Date",
+      "homeownerId": 2,
+      "summary": "Walk through went well.  Scheduled appt for work to begin",
+      "image": "http://res.cloudinary.com/decu5fbul/image/upload/v1672851910/wfy3d7yegsdjnn1vrczr.png",
+      "status": "Open"
     }
   ]
 }
